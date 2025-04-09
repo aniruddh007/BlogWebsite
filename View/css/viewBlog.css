@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    --background : rgb(135, 131, 131);
+    --shadow : rgb(179, 171, 171);
+    
+}
+body{
+    background-color: var(--background);
+}
+.header{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+a{
+    all: unset;
+    color: white;
+    cursor: pointer;
+}
+.blog{
+    margin: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px var(--shadow);
+    color: white;
+    
+}
+.title-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 50%;
+    font-size: 20px;
+
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.data img{
+    width: 80%;
+}
